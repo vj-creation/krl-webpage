@@ -11,6 +11,34 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style> 
+   
+   /* ==== Cards using Bootstrap === */
+#cards .card {
+    border-radius: 20px;
+    min-height: 100%;
+}
+
+#cards .heading-border {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+}
+
+#cards .card .user-picture img {
+    position: absolute;
+    top: -20%;
+    right: 10%;
+    background: #f8f9fa!important;
+    padding: 10px;
+}
+
+#cards .card .user-content .user-name {
+    margin-right: 150px;
+}
+    </style>
+    
 </head>
 <body>
     <!-- Responsive navbar-->
@@ -32,52 +60,191 @@
         </div>
     </nav>
 
-    <!-- BEGIN CONTAINER -->
-    <div class="page-container">
-        <!-- BEGIN CONTENT -->
-        <div class="page-content-wrapper">
-            <!-- BEGIN CONTENT BODY -->
-            <!-- BEGIN PAGE HEAD-->
-            <div class="page-head">
-                <div class="container">
-                    <!-- BEGIN PAGE TITLE -->
-                    <div class="page-title text-center">
-                        <h1 class="about_heading">PEOPLE</h1>
-                        <div style="width:130px; border:solid 2px #ff7200; margin:0 auto; margin-top:8px;"></div>
+
+    
+    <body class="bg-light">
+        <main>
+            <section>
+                <div class="row pb-4">
+                    <div class="col-12 text-center">
+                        <div class="display-4">Founder & Mentor</div>
                     </div>
-                    <!-- END PAGE TITLE -->
-    
                 </div>
-            </div>
-            <!-- END PAGE HEAD-->
-    
-    
-    
-        </div>
-        <!-- END CONTENT -->
-    
-    </div>
-    <!-- END CONTAINER -->
-    
-    <div class=" page-content">
-        <div class="container">
-            <div class="page-content-inner">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="col-md-12 margin-top-30 01 text-center">
-                            <p class="about_txt">Coming Soon</p>
+                <div class="col d-flex justify-content-center">
+                    <div class="card bg-light mb-3" style="max-width: 540px;">
+                        
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./assets/sir1.jpeg" class="img-fluid rounded-start" alt="Dr. Satyendra Singh Chouhan" height="300" width="300" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dr. Satyendra Singh Chouhan</h5>
+                                    <p class="card-text">Assistant Professor, Department of Computer Science, MNIT Jaipur </p>
+                                    <p> Ph.D.(CSE ), M.Tech.(CSE ) , B.E.(IT)
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">Research Interests : Artificial Intelligence , Machine Learning, AI Planning, Natural Language Processing, Deep
+                                    Learning.</small></p>
+                                </div>
+                            </div>
                         </div>
-    
-    
                     </div>
-    
                 </div>
+                
+                 </section>
+           
+            <!-- Ui cards -->
+            <section id="cards">
+                <div class="container py-2">
+                    <div class="row pb-4">
+                        <div class="col-12 text-center">
+                            <div class="display-4">Our Team</div>
+                        </div>
+                    </div>
+                    <!-- cards -->
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 mb-4 pt-5">
+                            <div class="card shadow-sm border-0">
+                                <div class="card-body">
+                                    <div class="user-picture">
+                                        <img src="https://images.unsplash.com/photo-1495603889488-42d1d66e5523?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=130&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=130"
+                                            class="shadow-sm rounded-circle" height="130" width="130" />
+                                    </div>
+                                    <div class="user-content">
+                                        <h5 class="text-capitalize user-name">Sanskar Soni</h5>
+                                        <p class=" text-capitalize text-muted small blockquote-footer"></p>
+                                        <div class="small">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star-half-alt text-warning"></i>
+                                            <i class="fas fa-star text-light"></i>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4 pt-5">
+                            <div class="card shadow-sm border-0">
+                                <div class="card-body">
+                                    <div class="user-picture">
+                                        <img src="https://images.unsplash.com/photo-1582003457856-20898dd7e1ea?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=130&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=130"
+                                            class="shadow-sm rounded-circle" height="130" width="130" />
+                                    </div>
+                                    <div class="user-content">
+                                        <h5 class="text-capitalize user-name">Vineet Joshi</h5>
+                                        <p class=" text-capitalize text-muted small blockquote-footer"></p>
+                                        <div class="small">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star-half-alt text-warning"></i>
+                                            <i class="fas fa-star text-light"></i>
+                                            <i class="fas fa-star text-light"></i>
+                                        </div>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4 pt-5">
+                            <div class="card shadow-sm border-0">
+                                <div class="card-body">
+                                    <div class="user-picture">
+                                        <img src="https://images.unsplash.com/photo-1492447166138-50c3889fccb1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=130&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=130"
+                                            class="shadow-sm rounded-circle" height="130" width="130" />
+                                    </div>
+                                    <div class="user-content">
+                                        <h5 class="text-capitalize user-name">Spandan Patil</h5>
+                                        <p class=" text-capitalize text-muted small blockquote-footer"></p>
+                                        <div class="small">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star-half-alt text-warning"></i>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4 pt-5">
+                            <div class="card shadow-sm border-0">
+                                <div class="card-body">
+                                    <div class="user-picture">
+                                        <img src="https://i.picsum.photos/id/836/130/130.jpg?hmac=Sot_REUw5W-XSuE6FmCjT9JenhZfiNqZYs3AQbfrZsc"
+                                            class="shadow-sm rounded-circle" height="130" width="130" />
+                                    </div>
+                                    <div class="user-content">
+                                        <h5 class="text-capitalize user-name">Tavish Vijay</h5>
+                                        <p class=" text-capitalize text-muted small blockquote-footer"></p>
+                                        <div class="small">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star-half-alt text-warning"></i>
+                                            <i class="fas fa-star text-light"></i>
+                                            <i class="fas fa-star text-light"></i>
+                                            <i class="fas fa-star text-light"></i>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-4 col-md-6 mb-4 pt-5">
+                            <div class="card shadow-sm border-0">
+                                <div class="card-body">
+                                    <div class="user-picture">
+                                        <img src="https://images.unsplash.com/photo-1495603889488-42d1d66e5523?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=130&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=130"
+                                            class="shadow-sm rounded-circle" height="130" width="130" />
+                                    </div>
+                                    <div class="user-content">
+                                        <h5 class="text-capitalize user-name">Carry Johnshon</h5>
+                                        <p class=" text-capitalize text-muted small blockquote-footer">Web developer</p>
+                                        <div class="small">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star-half-alt text-warning"></i>
+                                            <i class="fas fa-star text-light"></i>
+                                        </div>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4 pt-5">
+                            <div class="card shadow-sm border-0">
+                                <div class="card-body">
+                                    <div class="user-picture">
+                                        <img src="https://images.unsplash.com/photo-1582003457856-20898dd7e1ea?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=130&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=130"
+                                            class="shadow-sm rounded-circle" height="130" width="130" />
+                                    </div>
+                                    <div class="user-content">
+                                        <h5 class="text-capitalize user-name">Alex Carry</h5>
+                                        <p class=" text-capitalize text-muted small blockquote-footer">Web developer</p>
+                                        <div class="small">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star-half-alt text-warning"></i>
+                                            <i class="fas fa-star text-light"></i>
+                                            <i class="fas fa-star text-light"></i>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+           -->          </div>
+                </div>
+                <!-- /cards -->
+            </section>
+            <!-- /Ui cards -->
+        </main>
     
-                <div class="space_box">&nbsp;</div>
-    
-    
-            </div>
-        </div>
-    </div>
+    </body>
 </body>
 </html>
